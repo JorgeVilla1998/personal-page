@@ -12,7 +12,7 @@ body{
     padding-top: 6%;
     flex-flow: nowrap column;
     justify-content: center;
-    height: 70vh;
+    height: 60vh;
     width: 100%;
     background: rgb(0,0,0);
 }
@@ -178,7 +178,7 @@ footer > a{
         width: 100%;
         justify-content: center;
         margin: 0;
-        font-size: 30px;
+        font-size: 50px;
         margin-bottom: 15px;
     }
     
@@ -188,7 +188,7 @@ footer > a{
         color: rgb(125, 125, 125);
         font-family: 'Courier New', Courier, monospace;
         margin: 0;
-        font-size: 10px;
+        font-size: 15px;
     }
 
     .hero img{
