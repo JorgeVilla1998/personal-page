@@ -165,8 +165,6 @@ footer > a{
     -o-transition: 0.2s ease;
 }
 
-@media (max-width: 640px){
-
 @media (max-width: 640px) {
     body>*{
         width: 100%;
