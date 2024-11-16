@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap column;
+}
+
+/* main header section */
+
+.main{
+    padding-top: 6%;
+    flex-flow: nowrap column;
+    justify-content: center;
+    height: 70vh;
+    width: 100%;
+    background: rgb(0,0,0);
+}
+
+.main h1{
+    display: flex;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.main h3{
+    display: flex;
+    justify-content: center;
+    color: rgb(125, 125, 125);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 25px;
+}
+
+.main span{
+    color: white;
+    text-shadow: 1px white;
+}
+
+.main img{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: baseline;
+}
+
+
+
+/* heri info section */
+
+.hero{
+    display: block;
+    padding: 150px 0 150px 0;
+}
+
+.hero-info h2, p{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-imgs{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-imgs p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hero .description{
+    justify-content: center;
+    text-align: center;
+    font-weight: bolder;
+    margin: 0 180px 0 180px;
+}
+
+.hero img{
+    height: 40px;
+    margin: 80px 80px 30px 80px;
+    padding: 0 10px 0 10px;
+}
+
+#html:hover{
+    color: orange;
+}
+
+#css:hover{
+    color: blue;
+}
+
+#js:hover{
+    color: rgb(222, 222, 6);
+}
+
+#py:hover{
+    color: rgba(138, 230, 0, 0.9);
+}
+
+#sql:hover{
+    color: red;
+}
+
+
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45vh;
+    background: rgb(0,0,0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+footer > a{
+    margin-left: 40px;
+    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.lin:hover{
+    color: rgb(53, 88, 159);
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
+.git:hover{
+    color: rgb(84, 2, 139);
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
+.mail:hover{
+    color: red;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
