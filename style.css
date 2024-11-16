@@ -178,7 +178,7 @@ footer > a{
         width: 100%;
         justify-content: center;
         margin: 0;
-        font-size: 50px;
+        font-size: 30px;
         margin-bottom: 15px;
     }
     
@@ -188,7 +188,7 @@ footer > a{
         color: rgb(125, 125, 125);
         font-family: 'Courier New', Courier, monospace;
         margin: 0;
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .hero img{
